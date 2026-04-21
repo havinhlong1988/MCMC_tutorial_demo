@@ -1,0 +1,49 @@
+site_name: MCMC gradient-like Tutorial
+site_description: Step-by-step tutorial for MCMC inversion workflow
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - System requirement: System-requirement.md
+  - 00. Package structure: 00.md
+  - 01. Prepare input files: 01.md
+  - 02. Control files: 02.md
+  - 03. Importan functions: 03.md
+  - 04. Execute the program: 04.md
+  - 05. Important notes: 05.md
+  - 06. Give us feedback: 06.md
+  - 07. Supplementary:
+    - Berg's Tutorial: assets/JointInversion_Overview.pdf
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  analytics:
+    feedback:
+      title: Give us feedback
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This tutorial was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This tutorial could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Please open an issue or contact the maintainer.
