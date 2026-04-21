@@ -1,4 +1,4 @@
-site_name: MCMC gradient-like Tutorial
+site_name: MCMC Tutorial for 1D gradient models
 site_description: Step-by-step tutorial for MCMC inversion workflow
 site_url: !ENV READTHEDOCS_CANONICAL_URL
 
