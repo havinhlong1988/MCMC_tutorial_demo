@@ -37,6 +37,17 @@ us refine both the content and the structure of the tutorial. Please
 feel free to reach out through the **“Give us feedback”** section in the
 Appendix.
 
+<div style="background-color:#fff8cc; border:1px solid #e6c200; padding:12px 16px; border-radius:6px; margin:15px 0;">
+
+  <strong>The main code directory and examples can be found here:</strong><br><br>
+
+  <a href="https://github.com/IES-ESLab/MCMC_1D_gradient"
+     style="color:blue; font-family:'Courier New', monospace; font-weight:bold; text-decoration:none;">
+     https://github.com/IES-ESLab/MCMC_1D_gradient
+  </a>
+
+</div>
+
 **References**
 
 Berg, E. M., Lin, F.-C., Allam, A., Qiu, H., Shen, W., & Ben-Zion, Y.
